@@ -472,6 +472,8 @@ textarea {
 
 .w-100 {
   width: 100% !important;
+  min-width: 1920px;
+ 
 }
 
 .my-4 {
@@ -490,6 +492,32 @@ textarea {
 
 
 
+@media (min-width: 150px) {
+  
+  .w-100 {
+    width: 100% !important;
+    min-width: 150px;
+  }
+
+}
+
+@media (min-width: 320px) {
+  
+  .w-100 {
+    width: 100% !important;
+    min-width: 320px;
+  }
+
+}
+
+@media (min-width: 480px) {
+  
+  .w-100 {
+    width: 100% !important;
+    min-width: 480px;
+  }
+
+}
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -506,6 +534,12 @@ textarea {
     width: 50%;
   }
 
+  .w-100 {
+    width: 100% !important;
+    min-width: 576px;
+  
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -518,20 +552,52 @@ textarea {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
+
+  .w-100 {
+    width: 100% !important;
+    min-width: 768px;
+  }
+
 }  
 
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  
+  .w-100 {
+    width: 100% !important;
+    min-width: 992px;
+  }
+
 }
+
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
+
+  .w-100 {
+    width: 100% !important;
+    min-width: 1200px;
+  }
 }
+
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
+  }
+
+  .w-100 {
+    width: 100% !important;
+    min-width: 1400px;
+  }
+}
+
+@media (min-width: 1600px) {
+
+    .w-100 {
+    width: 100% !important;
+    min-width: 1600px;
   }
 }
